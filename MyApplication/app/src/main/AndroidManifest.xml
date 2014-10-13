@@ -24,6 +24,7 @@
         </activity>
 
         <receiver android:name=".TimeAlarm" android:enabled="true"/>
+        <service android:name=".MyServices" android:enabled="true"/>
 \    </application>
 
 </manifest>
