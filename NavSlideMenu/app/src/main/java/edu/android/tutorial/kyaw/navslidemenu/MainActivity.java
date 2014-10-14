@@ -3,6 +3,7 @@ package edu.android.tutorial.kyaw.navslidemenu;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -151,6 +152,24 @@ public class MainActivity extends Activity {
 
 
     @Override
+    public void setTitle(CharSequence title) {
+        title = title;
+        getActionBar().setTitle(title);
+    }
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        actionBarDrawerToggle.syncState();
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        actionBarDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
@@ -162,6 +181,11 @@ public class MainActivity extends Activity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+
+        if(actionBarDrawerToggle.onOptionsItemSelected(item)){
+            return true;
+        }
+        
         int id = item.getItemId();
         if (id == R.id.action_settings) {
             return true;
