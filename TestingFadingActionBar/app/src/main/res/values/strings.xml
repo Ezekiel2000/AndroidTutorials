@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestingFadingActionBar</string>
+    <string name="hello_world">New York – referred to as New York City or the City of New York to distinguish it from the State of New York, of which it is a part – is the most populous city in the United States and the center of the New York metropolitan area, the premier gateway for legal immigration to the United States[6][7][8] and one of the most populous urban agglomerations in the world.[9] A global power city,[10] New York exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. Home to the headquarters of the United Nations,[11] New York is an important center for international diplomacy[12] and has been described as the cultural and financial capital of the world</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

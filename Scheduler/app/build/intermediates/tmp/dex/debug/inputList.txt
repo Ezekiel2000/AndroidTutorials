@@ -1,0 +1,4 @@
+/Users/kyawthan/AndroidStudioProjects/tutorial/Scheduler/app/build/intermediates/classes/debug
+/Users/kyawthan/AndroidStudioProjects/tutorial/Scheduler/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-790b91e5e7192833ab61c5c9f9e5d8f0699295f3.jar
+/Users/kyawthan/AndroidStudioProjects/tutorial/Scheduler/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b922b62d33489107b491ff245dabb8c83c0099a3.jar
+/Users/kyawthan/AndroidStudioProjects/tutorial/Scheduler/app/build/intermediates/pre-dexed/debug/classes-a611cdbb60562c882f009e37973737e70a67169f.jar
